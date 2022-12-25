@@ -5,7 +5,7 @@ from machine import Pin
 import dht
 
 #####################
-serverip = '172.20.10.3'
+serverip = 'xxx.xx.xx.x'
 port = 9000
 #####################
 
@@ -33,7 +33,7 @@ print("> Temperature checking...")
 d = dht.DHT22(Pin(23))
 time.sleep(1)
 
-for i in range(20):
+while True:
     d.measure()
     time.sleep(1)
     temp = d.temperature()
