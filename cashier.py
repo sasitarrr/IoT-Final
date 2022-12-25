@@ -1,5 +1,5 @@
 ############## NETWORK ###############
-kitchenip = "172.20.10.3"
+kitchenip = "xxx.xx.xx.x"
 kitchenport = 7000
 
 ############## GUI ###############
