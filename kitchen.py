@@ -1,5 +1,5 @@
 ############## NETWORK #################
-kitchenip = "172.20.10.3"
+kitchenip = "xxx.xx.xx.x"
 kitchenport = 7000
 
 ################# GUI ##################
@@ -71,7 +71,7 @@ for hd,hw in zip(header,hwid):
 ################# FUNCTIONS ##################
 def runservertemp():
     #####################
-    serverip = '172.20.10.3'
+    serverip = 'xxx.xx.xx.x'
     port = 9000
     #####################
 
